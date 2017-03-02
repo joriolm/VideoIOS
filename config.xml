@@ -2,7 +2,7 @@
 <widget id="com.masterdata.mpilaboratorios" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MPI-Laboratorios</name>
     <description>
-        Herramineta para el control de ensayos de laboratorio.
+        Herramienta para el control de ensayos de laboratorio.
     </description>
     <author email="contacto@masterdata.co" href="http://masterdata.co">
         MasterData
