@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.masterdata.mpilaboratorios" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>MPI Labs</name>
+    <name>MPI</name>
     <description>
-        Herramienta para el control de ensayos de laboratorio.
+        MPI Líderes en tecnología de asfalto
     </description>
     <author email="contacto@masterdata.co" href="http://masterdata.co">
         MasterData
