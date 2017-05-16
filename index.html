@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link href="images/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+<link href="images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<title>MPI Laboratorios</title>
+<link rel="stylesheet" href="css/framework7.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style2.css">
+<link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body id="mobile_wrap">
+
+    <div class="statusbar-overlay"></div>
+
+    <div class="panel-overlay"></div>
+
+    <div class="panel panel-left panel-reveal">
+	<div class="view view-subnav">
+	<div class="pages">
+		<div data-page="panel-leftmenu" class="page pagepanel">	
+                     <div class="page-content">
+			<nav class="main-nav icons_31">
+			<ul>
+			<li><a href="index.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/home.png" alt="" title="" /><span>Inicio</span></a></li>
+			<li><a href="about.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/mobile.png" alt="" title="" /><span>Acerca de</span></a></li>
+			<!--<li><a href="features.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/features.png" alt="" title="" /><span>Características</span></a></li> -->
+			
+			<!--<li><a href="#" data-popup=".popup-login" class="open-popup close-panel"><img src="images/icons/black/lock.png" alt="" title="" /><span>Ingresar</span></a></li> -->
+         <li><a href="#" onclick="ajaxRequest(MainForm.form, '_loginForm', []);" class="close-panel"><img src="images/icons/black/lock.png" alt="" title="" /><span>Ingresar</span></a></li>
+         <li><a href="team.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/users.png" alt="" title="" /><span>Equipo</span></a></li>
+			<!--<li><a href="blog.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/blog.png" alt="" title="" /><span>Blog</span></a></li> -->		
+
+			<!--<li><a href="photos.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/photos.png" alt="" title="" /><span>Fotos</span></a></li> -->
+			<!--<li><a href="videos.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/video.png" alt="" title="" /><span>Videos</span></a></li> -->
+			<!--<li><a href="music.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/music.png" alt="" title="" /><span>Música</span></a></li> -->
+			
+			<!--<li><a href="shop.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/shop.png" alt="" title="" /><span>Tienda</span></a></li> -->
+			<!--<li class="subnav"><a href="categories.html"><img src="images/icons/black/categories.png" alt="" title="" /><span>Categorías</span></a></li> -->
+			<!--<li><a href="cart.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/cart.png" alt="" title="" /><span>Carrito</span></a></li> -->
+			
+			<!--<li><a href="tables.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/tables.png" alt="" title="" /><span>Ensayos</span></a></li>
+			<!--<li><a href="form.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/form.png" alt="" title="" /><span>Formas</span></a></li> -->
+			<li><a href="contact.html" class="close-panel" data-view=".view-main"><img src="images/icons/black/contact.png" alt="" title="" /><span>Contacto</span></a></li>
+			</ul>
+			</nav>
+                     </div>
+		</div>
+	  </div>
+	</div>  
+    </div>
+
+    <!--<div class="panel panel-right panel-reveal">
+      <div class="user_login_info">
+	  
+                <div class="user_thumb">
+                <img src="images/page_photo.jpg" alt="" title="" />
+                  <div class="user_details">
+                   <p>Bienvenido, <span>Consulte sus registros</span></p>
+                  </div>  
+                  <div class="user_avatar"><img src="images/avatar.jpg" alt="" title="" /></div>       
+                </div>
+				
+                  <nav class="user-nav">
+                    <ul> -->
+                      <!--<li><a href="features.html" class="close-panel"><img src="images/icons/black/settings.png" alt="" title="" /><span>Ajustes de cuenta</span></a></li> -->
+                      <!--<li><a href="features.html" class="close-panel"><img src="images/icons/black/briefcase.png" alt="" title="" /><span>Mi cuenta</span></a></li>   -->
+                      <!--<li><a href="features.html" class="close-panel"><img src="images/icons/black/message.png" alt="" title="" /><span>Mensajes</span><strong>12</strong></a></li> -->
+                      <!--<li><a href="features.html" class="close-panel"><img src="images/icons/black/love.png" alt="" title="" /><span>Favoritos</span><strong>5</strong></a></li> -->
+                      <!--<li><a href="index.html" class="close-panel"><img src="images/icons/black/lock.png" alt="" title="" /><span>Salir</span></a></li>
+                    </ul>
+                  </nav>
+      </div> --> 
+    <!--</div> -->
+
+    <div class="views">
+
+      <div class="view view-main">
+
+
+
+        <div class="pages">
+
+          <div data-page="index" class="page homepage">
+            <div class="page-content">
+			
+                        <div class="navbarpages whitebg">
+                            <div class="navbar_left">
+                                <div class="logo_text"><a href="index.html"><img src="images/logo1.jpg" width="55px" height="55px"/></a></div>
+                            </div>			
+                            <a href="#" data-panel="left" class="open-panel">
+                                <div class="navbar_right"><img src="images/icons/black/menu.png" alt="" title="" /></div>
+                            </a>
+                            <!--<a href="#" data-panel="right" class="open-panel">
+                                <div class="navbar_right graybg"><img src="images/icons/black/user.png" alt="" title="" /></div>
+                            </a>	-->				
+                        </div>
+
+                <!-- Slider -->
+                <div class="swiper-container swiper-init" data-effect="slide" data-parallax="true" data-pagination=".swiper-pagination" data-paginationClickable="true">
+                    <div class="swiper-wrapper">
+					
+						
+                    
+                        <div class="swiper-slide"> <!-- style="background-image:url(images/slide1.jpg);"  -->
+						
+							
+							
+                            <div id="video_container"> <!--     align="left" -->
+								<video id="cmn-video-demo4__video"  autoplay muted loop> <!--id="lab1_video" height="auto" width="100%" left="auto" min-height="100%" min-width="100%" top="50%" left="0%" width="100%" height="90%" -->
+                                <source src="media/road1.mp4" type="video/mp4">
+                                <source src="media/road1.ogv" type="video/ogg">
+                                <source src="media/road1.webm" type="video/webm">
+                                <!--Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video. -->
+                                </video>
+                            </div>
+							
+							
+							
+		                    <div class="slider_trans">
+								<div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0;">
+									<table width="320px" cellspacing="10" align="center">
+										<tr>
+											<td>
+												<a href="#" onclick="window.open('http://www.mpi.net.co', '_system');"> <img src="images/siguetupedido.png"/> </a>
+											</td>
+											<td>
+												<a href="sedes.html"><img src="images/sedes.png" alt="" title="" /></a> <!-- class="close-panel" data-view=".view-main" -->
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="core.html"> <img src="images/corebusiness.png"/> </a>
+											</td>
+											<td>
+												<a href="index.html"> <img src="images/eventos.png"/> </a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="index.html"> <img src="images/mpilabs.png"/> </a>
+											</td>
+											<td>
+												<a href="photos.html"> <img src="images/galeria.png"/> </a>
+											</td>
+										</tr>
+									</table>
+								</div>
+								
+			                    <!-- <div class="slider-caption">
+				                    <h2 data-swiper-parallax="-50%">MPI</h2>
+				                    <span class="subtitle" data-swiper-parallax="-60%">LÍDERES EN TECNOLOGÍA DE ASFALTOS</span>
+				                    <p data-swiper-parallax="-30%">30 años haciendo historia.</p>
+			                    </div> -->
+		                    </div> 
+							
+							
+                        </div>
+						
+						
+                      
+                        <!-- <div class="swiper-slide" style="background-image:url(images/slide2.jpg);"> -->
+                        <!--
+                        <div class="swiper-slide"> 
+                            <div id="cmn-video-demo3__container" align="center">
+                                <video id="cmn-video-demo3__video" autoplay muted loop width="100%" height="100%">
+                                <source src="media/road2.mp4" type="video/mp4">
+                                <source src="media/road2.ogv" type="video/ogg">
+                                <source src="media/road2.webm" type="video/webm">
+                                </video>
+                            </div>
+			                <div class="slider_trans">		  
+				                <div class="slider-caption">
+				                    <h2 data-swiper-parallax="-100%">APOYANDO EL DESARROLLO VIAL</h2>
+				                    <span class="subtitle" data-swiper-parallax="-60%">EXPERIENCIA, EQUIPOS, VISIÓN</span>
+				                    <p data-swiper-parallax="-30%">Nuestro compromiso es nuestra mayor virtud.</p>
+				                </div>	
+			                </div>	
+                        </div>
+                        
+                        <div class="swiper-slide"> 
+                            <div id="cmn-video-demo3__container" align="center">
+                                <video id="cmn-video-demo3__video" autoplay muted loop width="100%" height="100%">
+                                <source src="media/road3.mp4" type="video/mp4">
+                                <source src="media/road3.ogv" type="video/ogg">
+                                <source src="media/road3.webm" type="video/webm">
+                                </video>
+                            </div>
+			                <div class="slider_trans">		  
+				                <div class="slider-caption">
+				                    <h2 data-swiper-parallax="-100%">CONSTRUIMOS FUTURO</h2>
+				                    <span class="subtitle" data-swiper-parallax="-60%">APOYAMOS LOS PROCESOS DE CALIDAD</span>
+				                    <p data-swiper-parallax="-30%">Normas y certificaciones internacionales.</p>
+				                </div>
+                            </div>
+		                </div> 	
+		                -->
+		                
+                    </div>
+					
+					
+                    
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div> <!-- FIN SLIDER- -->
+			  
+		        <ul id="navs" data-open="-" data-close="+">
+		        <li><a href="contact.html"><img src="images/icons/black/contact.png" alt="" title="" /></a></li>
+		        <li><a href="#" data-popup=".popup-social" class="open-popup"><img src="images/icons/black/twitter.png" alt="" title="" /></a></li>
+		        <li><a href="tel:0376228725" class="external"><img src="images/icons/black/phone.png" alt="" title="" /></a></li>
+		        </ul>	  
+			  
+			  
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+	
+    <!-- Login Popup -->
+    <!-- <div class="popup popup-login">
+        <div class="content-block">
+            <h4>LOGIN</h4>
+            <div class="loginform">
+                <form id="LoginForm" method="post">
+                    <input type="text" name="Username" value="" class="form_input required" placeholder="username" />
+                    <input type="password" name="Password" value="" class="form_input required" placeholder="password" />
+                    <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Olvidó su clave?</a></div>
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
+                </form>
+                <div class="signup_bottom">
+                    <p>Don't have an account?</p>
+                    <a href="#" data-popup=".popup-signup" class="open-popup">SIGN UP</a>
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Register Popup -->
+    <!-- <div class="popup popup-signup">
+        <div class="content-block">
+            <h4>REGISTRARSE</h4>
+            <div class="loginform">
+                <form id="RegisterForm" method="post">
+                    <input type="text" name="Username" value="" class="form_input required" placeholder="Username" />
+                    <input type="text" name="Email" value="" class="form_input required" placeholder="Email" />
+                    <input type="password" name="Password" value="" class="form_input required" placeholder="Password" />
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN UP" />
+                </form>
+		<h5>- O REGISTRARSE CON UNA CUENTA DE RED SOCIAL -</h5>
+		<div class="signup_social">
+			<a href="http://www.facebook.com/" class="signup_facebook external">FACEBOOK</a>
+			<a href="http://www.twitter.com/" class="signup_twitter external">TWITTER</a>            
+		</div>		
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div> -->
+	
+    <!-- Forgot Password Popup -->
+    <!-- <div class="popup popup-forgot">
+        <div class="content-block">
+            <h4>OLVIDÉ MI CLAVE</h4>
+            <div class="loginform">
+                <form id="ForgotForm" method="post">
+                    <input type="text" name="Email" value="" class="form_input required" placeholder="email" />
+                    <input type="submit" name="submit" class="form_submit" id="submit" value="REENVIAR CLAVE" />
+                </form>
+                <div class="signup_bottom">
+                    <p>Revise su correo y siga las instrucciones para reasignar su clave.</p>
+                </div>
+            </div>
+            <div class="close_popup_button">
+                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+            </div>
+        </div>
+    </div> -->
+	
+    <!-- Social Icons Popup -->
+    <div class="popup popup-social">
+    <div class="content-block">
+      <h4>Compartir</h4>
+      <p>Comparta con su familia, amigos y colegas.</p>
+      <ul class="social_share">
+      <!-- <li><a href="http://twitter.com/" class="external"><img src="images/icons/black/twitter.png" alt="" title="" /><span>TWITTER</span></a></li>-->
+	  
+	  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mpi.net.co" data-text="MPI Lideres en tecnologia de asfalto, te invitamos a seguirnos en @AsfaltosMPI" data-size="large" data-related="AsfaltosMPI">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> </li>
+      <li><a href="http://www.facebook.com/" class="external"><img src="images/icons/black/facebook.png" alt="" title="" /><span>FACEBOOK</span></a></li>
+      <li><a href="http://plus.google.com" class="external"><img src="images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
+      <!--li><a href="http://www.dribbble.com/" class="external"><img src="images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>-->
+      <li><a href="http://www.linkedin.com/" class="external"><img src="images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
+      <!--<li><a href="http://www.pinterest.com/" class="external"><img src="images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>-->
+      </ul>
+      <div class="close_popup_button"><a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
+    </div>
+    </div>
+ 
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js" ></script>
+<script type="text/javascript" src="js/framework7.js"></script>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/email.js"></script>
+<script type="text/javascript" src="js/circlemenu.js"></script>
+<script type="text/javascript" src="js/audio.min.js"></script>
+<script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
