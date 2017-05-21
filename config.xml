@@ -116,4 +116,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <preference name="orientation" value="portrait" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
 </widget>
