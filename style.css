@@ -82,7 +82,7 @@ margin:0px;
 line-height:20px;
 }
 blockquote{
-background:#f9f301;
+background:#FFD400;
 padding:20px;
 margin:0 0 20px 0;
 font-size:22px;
@@ -760,11 +760,11 @@ width: 95%;
 }
 .swiper-container .swiper-pagination-bullet-active {
 opacity: 1;
-background: #f9f301;
+background: #FFD400;
 }
 .swiper-container-pages .swiper-pagination-bullet-active {
 opacity: 1;
-background: #f9f301;
+background: #FFD400;
 }
 .swiper-pagination-toolbar{
 position: absolute;
@@ -1455,7 +1455,7 @@ float:left;
 clear:both;
 font-size:14px;
 font-weight:700;
-border-left:5px solid #f9f301;
+border-left:5px solid #FFD400;
 }
 .order_item{
 width:100%;
@@ -1718,7 +1718,7 @@ color: #000;
 text-align:center;
 }
 .list-block .swipeout-actions-right a:nth-child(1){
-background:#f9f301;
+background:#FFD400;
 }
 .list-block .swipeout-actions-right a:nth-child(2){
 background:#efe907;
