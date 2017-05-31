@@ -1057,15 +1057,18 @@ font-size:12px;
 font-weight:900;
 
 }
-.imagen_1 div
+.imagen_1
 {
 	display:inline-block;
 	margin: 10px;
+	width: 100%;
+	overflow-x: hidden;
 }
 .imagen
 {
 	text-align:center;
 	width:33%;
+	height:100%;
 	display:inline-block;
 }
 
