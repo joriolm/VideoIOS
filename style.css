@@ -563,6 +563,7 @@ font-size:16px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   background-color: #FFD400;
+  border: 2px solid black;
 }
 
 #navs>li {
@@ -1054,6 +1055,18 @@ ul.social_share li a{
 color:#222222;
 font-size:12px;
 font-weight:900;
+
+}
+.imagen_1 div
+{
+	display:inline-block;
+	margin: 10px;
+}
+.imagen
+{
+	text-align:center;
+	width:33%;
+	display:inline-block;
 }
 
 .close_popup_button{
