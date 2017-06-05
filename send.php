@@ -12,14 +12,16 @@ if($post) {
 		return empty($eregi) ? true : false;
 	}
 
-	$name = stripslashes($_POST['ContactName']);
+	$name = $_POST['ContactName'];
 	$to = trim($_POST['to']);
-	$email = strtolower(trim($_POST['ContactEmail']));
-	$subject = stripslashes($_POST['subject']);
-	$message = stripslashes($_POST['ContactComment']);
+	$email = trim($_POST['ContactEmail']);
+	$subject = $_POST['subject'];
+	$message = $_POST['ContactComment'];
 	$error = '';
 	$Reply=$to;
 	$from=$to;
+	$header = 'From: ' . $email;
+	$msjCorreo = "Nombre: $name\n E-Mail: $email\n Mensaje:\n $message";
 	
 	// Check Name Field
 	if(!$name) {
@@ -45,6 +47,8 @@ if($post) {
 	}
 	
 	// Let's send the email.
+	  
+	if ($_POST['submit']) {
 	if(!$error) {
 		$messages="From: $email <br>";
 		$messages.="Name: $name <br>";
@@ -52,14 +56,18 @@ if($post) {
 		$messages.="Message: $message <br><br>";
 		$emailto=$to;
 		
-		$mail = mail($emailto,$subject,$messages,"from: $from <$Reply>\nReply-To: $Reply \nContent-type: text/html");	
-	
+		$mail = mail($to, $subject, $msjCorreo, $header);
+		
+		
+	   
 		if($mail) {
 			echo 'Enviado';
 		}
-	} else {
+	} 
+		else {
 		echo '<div class="error">'.$error.'</div>';
 	}
 
+}
 }
 ?>
