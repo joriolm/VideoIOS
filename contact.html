@@ -4,7 +4,7 @@
     
 	<div class="navbarpages graybg">
 		<div class="navbar_left">
-			<div class="logo_text"><a href="index.html">MPI</a></div>
+			<div class="logo_text"><a href="index.html">MPI Labs.</a></div>
 		</div>			
 		<a href="#" data-panel="left" class="open-panel">
 			<div class="navbar_right"><img src="images/icons/black/menu.png" alt="" title="" /></div>
@@ -21,10 +21,43 @@
      <div class="page_single layout_fullwidth_padding">	  
 
             <h2 id="Note"></h2>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZqz2ghbUMRJvISjDueCNcHRiabPWWLZjXZjqVTZvWG_W_-g/viewform?embedded=true" height="900" width="100%"  frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style=" display:block;">Cargando...</iframe>
-		<div style="width:23.4%; background-color:#FFFFFF  ; color:#FFFFFF;  border-right: 1px solid black; border-bottom: 1px solid #FFFFFF; display: inline-block ">PrimerBloque</div>
-		<div style="width:52.5%; background-color:#FFFFFF ; color:#FFFFFF; border-bottom: 1px solid black; display:inline-block;">SegundoBloque</div>
-		<div style="width:23%; background-color:#FFFFFF; color:#FFFFFF; border-left: 1px solid black; display:inline-block; border-bottom: 1px solid #FFFFFF; ">TercerBloque</div>
+            <div class="contactform">
+            <form class="cmxform" id="ContactForm" method="post" action="">
+            <label>Nombre:</label>
+            <input type="text" name="ContactName" id="ContactName" value="" class="form_input required" />
+            <label>Email:</label>
+            <input type="text" name="ContactEmail" id="ContactEmail" value="" class="form_input required email" />
+            <label>Mensaje:</label>
+            <textarea name="ContactComment" id="ContactComment" class="form_textarea textarea required" rows="" cols=""></textarea>
+            <input type="submit" name="submit" class="form_submit" id="submit" value="Enviar" />
+            <input class="" type="hidden" name="to"  value="joriolm@aim.com" />
+            <input class="" type="hidden" name="subject" value="Contacf form message" />
+            <label id="loader" style="display:none;"><img src="images/loader.gif" alt="Cargando..." id="LoadingGraphic" /></label>
+            </form>
+            </div>
+            
+       <script type="text/javascript">
+	   $("#submit").click(function (EnviarEmail)
+	   {
+	   		document.addEventListener('deviceready', function () 
+	   			{
+    			// cordova.plugins.email is now available 
+				}, false);
+			cordova.plugins.email.isAvailable(function (isAvailable) 
+				{
+        		// alert('Service is not available') unless isAvailable; 
+    			}
+				);
+			cordova.plugins.email.open(
+				{
+    				to:		 $("ContactEmail"),
+    				cc: 	 'alejoperez0120@gmail.com',
+    				bcc:     '',
+    				subject: 'Prueba',
+    				body:    $("ContactComment"),
+					isHtml:  true
+				});	
+	   </script>
             
       <h3>Ubicación</h3>
       
