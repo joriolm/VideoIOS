@@ -82,15 +82,15 @@ video#cmn-video-demo2__video {
 #cmn-video-demo3__container {
   position: relative;
   margin: 0 0 20px 0;
-  height: 300px;
+  height: 100%;
   background-color: #282828;
   overflow: hidden;
 }
 
 #cmn-video-demo3__video {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0%;
+  left: 0%;
   z-index: 1;
   width: 600px;
   height: auto;
@@ -143,7 +143,7 @@ video#cmn-video-demo2__video {
 
 @media all and (min-width: 600px) {
   #cmn-video-demo3__container {
-    height: 480px;
+    height: 100%;
   }
 
   #cmn-video-demo3__video {
