@@ -33,7 +33,7 @@
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 	<gap:plugin name="cordova-plugin-email-composer" source="npm" />
-	<plugin name="nl.x-services.plugins.socialsharing" spec="3.5" source="pgb" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" />
 	
     <platform name="android">
         <preference name="SplashScreen" value="www/res/screen/android/drawable-land-ldpi-screen.png" />  
