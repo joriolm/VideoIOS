@@ -187,7 +187,7 @@ video#cmn-video-demo2__video {
 ============================================================ */
 #cmn-video-demo4__video {
   position: fixed;
-  top: 50%;
+  top: 0%;
   left: 150%;
   z-index: -1;
   min-width: 100%;
