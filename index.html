@@ -164,7 +164,14 @@
 					<table width="320px" cellspacing="10" align="center">
                     	<tr>
                             <td>
-                            	<button onclick="window.plugins.socialsharing.shareViaEmail('Este mensaje es una prueba', 'PruebaDatos',['jperez@hotmail.com']">message only</button>
+                            	<button onclick="window.plugins.socialsharing.shareViaEmail();">message only</button>
+                            </td>
+                            <td>
+                            	<button onClick="cordova.plugins.email.open([
+                                 to:      'jperez_0120@hotmail.com',
+                                 subject: 'Prueba',
+    							 body:    'Este mesnsaje es una prueba'])">
+                                 Email</button>
                             </td>
                         </tr>
 						<tr>
