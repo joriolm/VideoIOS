@@ -13,13 +13,6 @@
 			<div class="navbar_right whitebg"><img src="images/icons/black/user.png" alt="" title="" /></div>
 		</a>					
 	</div>
-	<script type="application/javascript">
-        	function EnviarMail() 
-            {
-            	url = 'mailto:jperez_0120@hotmail.com?subject=A' + document.getElementById("Nombre")
-				window.open(url, 'emailWindow');
-        	}
-            </script>
             
      <div id="pages_maincontent">
       
@@ -29,7 +22,7 @@
 
             <h2 id="Note"></h2>
             <div class="">
-            <form class="" name="ContactForm" id="" method="post" enctype="text/plain" action="mailto:jperez_0120@hotmail.com?&subject=">
+            <!--<form class="" name="ContactForm" id="" method="post" enctype="text/plain" action="mailto:jperez_0120@hotmail.com?&subject=">
             <label>Nombre:</label><br>
             <input type="text" name="Nombre" id="Nombre" value="Alejandro" class="form_input required" /><br><br>
 
@@ -39,13 +32,15 @@
             <textarea name="Mensaje" id="Mensaje" class="form_textarea textarea required" rows="" cols=""></textarea><br><br>
             <input type="submit" name="submit" class="form_submit" id="submit" value="Enviar" /><br><br>
             <label id="loader" style="display:none;"><img src="images/loader.gif" alt="Cargando..." id="LoadingGraphic" /></label>
-            </form>
-            <button onClick="EnviarMail()"></button>
-           	<a href="mailto:jperez_0120@hotmail.com?subject=Prueba"> Enviar </a>
-            
-            
+            </form>-->
+           	<h2>Envianos un Email</h2>
+            <button onclick="window.plugins.socialsharing.shareViaEmail(
+								null, 
+								null,
+								['jperez_0120@hotmail.com'])">Enviar</button>
             </div>
-		
+		    <br>
+            <br>
       
       <!--
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193578.74109041138!2d-73.97968099999997!3d40.70331274999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York+NYC%2C+New+York%2C+Statele+Unite+ale+Americii!5e0!3m2!1sro!2s!4v1425027721891" width="100%" height="200" frameborder="0" style="border:0"></iframe> 
