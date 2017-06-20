@@ -163,39 +163,16 @@
   				<div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0; display:block;">
 					<table width="320px" cellspacing="10" align="center">
                     	<tr>
-                            <td>
-                            	<button onclick="window.plugins.socialsharing.shareViaTwitter('Message via Twitter')">message via Twitter</button>
-                            </td>
-                            <td>
-                            	<button onclick="window.plugins.socialsharing.shareViaWhatsApp('Message via WhatsApp', null /* img */, null /* url */, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})">msg via WhatsApp (with errcallback)</button>
-                            </td>
                              <td>
                             	<button onclick="window.plugins.socialsharing.shareViaEmail(
-								'Message', 
-								'Subject',
-								['jperez_0120@hotmail.com', 'alejoperez_0120@gmail.com],
-								['jperez_0120@hotmail.com'],
+								null, 
 								null,
-								null,
-								onSuccess,
-								onError
-								);">Email</button>
+								['jperez_0120@hotmail.com'],">Email</button>
                             </td>
                         </tr>
-                        <tr>
-                            <td>
-                            	<button onclick="window.plugins.socialsharing.shareVia('mailto');">message only</button>
-                            </td>
-                            <td>
-                            	<button onclick="window.plugins.socialsharing.share('Message and subject', 'The subject')">message and subject</button>
-                            </td>
-                             <td>
-                            	<button onclick="window.plugins.socialsharing.share('mailto', 'Message and subject', 'The subject')">message and subject</button>
-                            </td>
-                        </tr>
-						<tr>
+						<tr width="20%" height="20%">
 							<td>
-								<a href="#" onclick="window.open('http://www.mpi.net.co', '_system');"> <img src="images/siguetupedido.png"/> </a>
+								<a href="#" onclick="window.open('http://www.mpi.net.co', '_system');"> <img src="images/siguetupedido.png" width="inherit" height="inherit"/> </a>
 							</td>
                             <td>
 								<a href="core.html"> <img src="images/corebusiness.png"/> </a>
@@ -218,17 +195,17 @@
                         <!--Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video. -->
                     </video>
                 </div>
-                <div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0;">
-						<table width="320px" cellspacing="10" align="center">
+                <div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0; width:320px; height:120px;">
+						<table width="100%" cellspacing="10" style="position:relative; top:40%;">
                         	<tr>
-								<td>
-									<a href="index.html"> <img src="images/eventos.png"/> </a>
+								<td width="30%">
+									<a href="index.html"><img src="images/eventos.png" alt="" width="60%"/> </a>
 								</td>
-                                <td>
-									<a href="sedes.html"><img src="images/sedes.png" alt="" title="" /></a> <!-- class="close-panel" data-view=".view-main" -->
+                                <td width="30%">
+									<a href="sedes.html"><img src="images/sedes.png" alt="" title="" width="60%"/></a> <!-- class="close-panel" data-view=".view-main" -->
 								</td>
-                                <td>
-									<a href="photos.html"> <img src="images/galeria.png"/> </a>
+                                <td width="30%">
+									<a href="photos.html"> <img src="images/galeria.png" width="60%" alt=""/> </a>
 								</td>
 							</tr>
                       	</table>
@@ -241,11 +218,6 @@
 		    <li><a href="tel:0376228725" class="external"><img src="images/icons/black/phone.png" alt="" title="" /></a></li>
 		</ul>
     </div>
-    	<ul id="navs" data-open="-" data-close="+">
-			<li><a href="contact.html"><img src="images/icons/black/contact.png" alt="" title="" border="6" /></a></li>
-		   	<li><a href="social.html"><img src="images/icons/black/twitter.png" alt="" title=""/></a></li>
-		    <li><a href="tel:0376228725" class="external"><img src="images/icons/black/phone.png" alt="" title="" /></a></li>
-		</ul>
     </div>
     </div>
 	</div>
