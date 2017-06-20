@@ -31,6 +31,7 @@
     //
 	function browserIn(){
     function onDeviceReady() {
+		 var ref = window.open(encodeURI('http://www.mpi.net.co'), '_blank', 'location=yes');
          ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
          ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
          ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
