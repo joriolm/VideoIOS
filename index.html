@@ -31,7 +31,7 @@
     //
 	function browserIn(){
     function onDeviceReady() {
-		 var ref = window.open(encodeURI('http://www.mpi.net.co'), '_blank', 'location=yes');
+		 var ref = window.open('http://www.mpi.net.co', '_blank', 'location=yes');
          ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
          ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
          ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
@@ -181,6 +181,11 @@
 		                </div> 	-->
   				<div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0; display:block; width:320px; height:120px;">
 					<table width="100%" cellspacing="10" style="position:relative; top:40%;">
+                    	<tr>
+                        	<td>
+                            	<button onClick="browserIn();">InAppButton</button>
+                            </td>
+                        </tr>
 						<tr>
 							<td width="30%">
 								<a href="#" onclick="browserIn();"> <img src="images/siguetupedido.png" alt="" width="60%"/> </a>
