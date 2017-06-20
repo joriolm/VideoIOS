@@ -20,6 +20,24 @@
 	  {lang: 'es-419'}
 	</script>
     <script type="text/javascript" src="cordova.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+	function browserIn(){
+    function onDeviceReady() {
+         ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
+         ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
+         ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
+         ref.addEventListener('exit', function(event) { alert(event.type); });
+    }
+	}
+	</script>
 
     <div class="statusbar-overlay">
     </div>
@@ -164,7 +182,7 @@
 					<table width="100%" cellspacing="10" style="position:relative; top:40%;">
 						<tr>
 							<td width="30%">
-								<a href="#" onclick="window.open('http://www.mpi.net.co', '_system');"> <img src="images/siguetupedido.png" alt="" width="60%"/> </a>
+								<a href="#" onclick="browserIn();"> <img src="images/siguetupedido.png" alt="" width="60%"/> </a>
 							</td>
                             <td width="30%">
 								<a href="core.html"> <img src="images/corebusiness.png" alt="" width="60%"/> </a>

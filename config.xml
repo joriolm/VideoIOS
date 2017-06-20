@@ -33,7 +33,7 @@
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 	<gap:plugin name="cordova-plugin-email-composer" source="npm" />
-	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.16" />
 	
     <platform name="android">
         <preference name="SplashScreen" value="www/res/screen/android/drawable-land-ldpi-screen.png" />  
@@ -124,4 +124,9 @@
     </platform>
     <preference name="orientation" value="portrait" />
     <preference name="AllowInlineMediaPlayback" value="true" />
+	
+	<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+	</feature>
+
 </widget>
