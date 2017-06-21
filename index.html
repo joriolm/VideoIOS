@@ -21,21 +21,6 @@
 	</script>
     <script type="text/javascript" src="cordova.js"></script>
     
-    <script type="text/javascript" charset="utf-8">
-
-    // Wait for device API libraries to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    // device APIs are available
-    //
-	function browserIn(){
-    function onDeviceReady() {
-		 var ref = window.open('http://www.mpi.net.co', '_blank', 'location=yes');
-	}
-	}
-	</script>
-
     <div class="statusbar-overlay">
     </div>
 
@@ -185,7 +170,7 @@
 								<a href="core.html"> <img src="images/corebusiness.png" alt="" width="60%"/> </a>
 							</td>
                             <td width="30%">
-								<a href="#" onclick="cordova.InAppBrowser.open("181.48.47.114:8077", '_blank', 'location=yes')";><img src="images/mpilabs.png" alt="" width="60%"/> </a>
+								<a href="#" onclick="cordova.InAppBrowser.open('http://181.48.47.114:8077', '_blank', 'location=yes')";><img src="images/mpilabs.png" alt="" width="60%"/> </a>
 							</td>
 						</tr>
 					</table>
@@ -219,12 +204,12 @@
 				</div>
             </div>
         </div>
-        <ul id="navs" data-open="-" data-close="+">
+    </div>
+    	<ul id="navs" data-open="-" data-close="+">
 			<li><a href="contact.html"><img src="images/icons/black/contact.png" alt="" title="" border="6" /></a></li>
 		   	<li><a href="social.html"><img src="images/icons/black/twitter.png" alt="" title=""/></a></li>
 		    <li><a href="tel:0376228725" class="external"><img src="images/icons/black/phone.png" alt="" title="" /></a></li>
 		</ul>
-    </div>
     </div>
     </div>
 	</div>
