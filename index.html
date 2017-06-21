@@ -177,20 +177,15 @@
 		                </div> 	-->
   				<div id="tabla_iconos" align="center" style="margin: auto; position: absolute; top: 100; left: 0; bottom: 0; right: 0; display:block; width:320px; height:120px;">
 					<table width="100%" cellspacing="10" style="position:relative; top:40%;">
-                    	<tr>
-                        	<td>
-                            	<button onClick="cordova.InAppBrowser.open('http://www.mpi.net.co', '_blank', 'location=yes')";>Buton Enviar</button>
-                            </td>
-                        </tr>
 						<tr>
 							<td width="30%">
-								<a href="#" onclick="browserIn();"> <img src="images/siguetupedido.png" alt="" width="60%"/> </a>
+								<a href="#" onclick="cordova.InAppBrowser.open('http://www.mpi.net.co', '_blank', 'location=yes')";> <img src="images/siguetupedido.png" alt="" width="60%"/> </a>
 							</td>
                             <td width="30%">
 								<a href="core.html"> <img src="images/corebusiness.png" alt="" width="60%"/> </a>
 							</td>
                             <td width="30%">
-								<a href="#" onclick="window.open('http://181.48.47.114:8077', '_system');"><img src="images/mpilabs.png" alt="" width="60%"/> </a>
+								<a href="#" onclick="cordova.InAppBrowser.open('http://181.48.47.114:8077', '_blank', 'location=yes')";><img src="images/mpilabs.png" alt="" width="60%"/> </a>
 							</td>
 						</tr>
 					</table>
