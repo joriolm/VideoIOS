@@ -96,9 +96,10 @@ html.swipebox {
 #video-contenido
 {
 	align-content:stretch;
-	width:auto;
-  	height:inherit;
-	position:absolute;
+	width:160%;
+  	height:96%;
+	position:relative;
+	top:50px;
 	object-fit:fill!important;
 	margin:0;
 	padding:0;
