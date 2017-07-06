@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.masterdata.videoios" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>VideoIOS</name>
+<widget id="com.masterdata.mpilaboratorios" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MPI</name>
     <description>
-        VideoIOS
+        MPI Líderes en tecnología de asfalto
     </description>
     <author email="contacto@masterdata.co" href="http://masterdata.co">
         MasterData
@@ -57,9 +57,6 @@
         <splash qualifier="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
         <splash qualifier="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash qualifier="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
-	<feature name="InAppBrowser">
-	    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-	</feature>
     </platform>
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
@@ -88,9 +85,6 @@
         <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
-	    <feature name="InAppBrowser">
-		<param name="ios-package" value="CDVInAppBrowser" />
-	    </feature>
     </platform>
     <platform name="wp8">
         <icon height="99" platform="wp8" src="www/res/icon/wp8/ApplicationIcon.png" width="99" />
@@ -135,4 +129,9 @@
     </platform>
     <preference name="orientation" value="portrait" />
     <preference name="AllowInlineMediaPlayback" value="true" />
+	
+	<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+	</feature>
+
 </widget>

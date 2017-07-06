@@ -319,6 +319,15 @@ color:#222222;
 background-color:#61bb7e;
 color:#fff;
 }
+
+.Texto_Imagen
+{
+background:none; 
+border:none; 
+color:#FFD400; 
+font-family:Source Sans Pro, sans-serif;
+font-size:80%;
+}
 /*===============================================*/
 /* 6. LEFT AND RIGHT SLIDE PANELS */
 /*===============================================*/	
