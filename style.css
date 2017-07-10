@@ -611,6 +611,49 @@ font-size:16px;
 	margin:auto;
 	padding:10px 0 0 0;
 }
+.youtube_Button
+{
+  position: fixed;
+  left: 103%;
+  bottom: 20px;
+  width: 25px;
+  height: 15px;
+  line-height: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  z-index:999999;
+  font-size:30px;
+  font-weight:300;
+}
+
+.youtube_Icon
+{
+	width:inherit;
+	height:inherit;
+	object-fit:fill!important;
+}
+.yotube_text
+{
+  position: fixed;
+  left: 110%;
+  bottom: 3px;
+  width: 120px;
+  height: 15px;
+  line-height: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left:4px;
+  text-align: left;
+  font-size:14px;
+  color: #FFD400;
+  cursor: pointer;
+  z-index:999999;
+}
 /*===============================================*/
 /* 7. PAGES LAYOUT GENERAL */
 /*===============================================*/	
@@ -1080,7 +1123,7 @@ font-weight:900;
 .imagen
 {
 	text-align:center;
-	width:32%;
+	width:31%;
 	height:100%;
 	display:inline-block;
 }
