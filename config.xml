@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.masterdata.mpilaboratorios" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>MPI</name>
+<widget id="com.masterdata.mpilaboratorios" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MPIiOS</name>
     <description>
         MPI Líderes en tecnología de asfalto
     </description>
@@ -32,7 +32,7 @@
    <!-- <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />-->
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-	<gap:plugin name="cordova-plugin-email-composer" source="npm" />
+	<!--<gap:plugin name="cordova-plugin-email-composer" source="npm" />-->
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 	
     <platform name="android">
