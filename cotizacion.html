@@ -1,0 +1,435 @@
+<div class="pages">
+  <div data-page="contact" class="page no-toolbar no-navbar">
+    <div class="page-content">
+
+	<div class="navbarpages graybg">
+		<div class="navbar_left">
+			<div class="logo_text">
+            	<a href="index.html"><img src="images/logo1.jpg" width="55px" height="55px"/></a>
+                <img src="images/logo_derecha3.jpg" width="70%" height="50px" style="position:absolute; top:0%; padding-left:10px; max-width:300px; margin-top:20; padding-top:0px; border-top:0;"/>
+            </div>
+		</div>							
+	</div>
+	
+    <div id="pages_maincontent">
+		<br>
+		<a href="index.html" class="backto"><img src="images/icons/black/back.png" alt="" title="" /></a>
+			
+		<h2 class="page_title">Genera tu cotización</h2>
+		<div class="page_single layout_fullwidth_padding">
+              
+			<form style="line-height:1">
+            	<div>
+                	<h2>Productos</h2>
+                    <div class="div-form-product">
+                       <label class="label-form-product">Asfalto Caucho</label>
+                       <input type="checkbox" class="checkbox-form-product" name="Productos1" id="Check1" onClick="hideText()" value="true"><br><br>
+                       <label class="label-form-bot-product" hidden="true" id="Label1">Cantidad</label>
+                       <input type="text" name="ProCantidad1" id="ProCantidad1" hidden="true" class="checkbox-form-bot-product" /><br><br>
+                    </div><br>
+                                
+                    <div class="div-form-product">
+                        <label class="label-form-product">Asfalto modificado con polímeros</label>
+                        <input type="checkbox"  class="checkbox-form-product" name="Productos2" id="Check2" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label2">Cantidad</label>
+                        <input type="text" name="ProCantidad2" id="ProCantidad2" hidden="true" class="checkbox-form-bot-product"/><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-product">
+                        <label class="label-form-product">Asfalto con mejoradores de adherencia</label>
+                        <input type="checkbox" class="checkbox-form-product" name="Productos3" id="Check3" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label3">Cantidad</label>
+                        <input type="text" name="ProCantidad3" id="ProCantidad3" value="" hidden="true" class="checkbox-form-bot-product" /><br><br>
+                    </div><br>
+                    
+                     <div class="div-form-product">
+                        <label class="label-form-product">Asfalto Normalizado</label>
+                        <input type="checkbox" class="checkbox-form-product" name="Productos4" id="Check4" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label4">Cantidad</label>
+                        <input type="text" name="ProCantidad4" id="ProCantidad4" value="" hidden="true" class="checkbox-form-bot-product"/><br><br>
+                     </div><br> 
+                    
+                    <div class="div-form-product">
+                        <label class="label-form-product">Sellado de grietas - POLYBIT</label>
+                        <input type="checkbox" class="checkbox-form-product" name="Productos5" id="Check5" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label5">Cantidad</label>
+                        <input type="text" name="ProCantidad5" id="ProCantidad5" value="" hidden="true" class="checkbox-form-bot-product" /><br><br>
+                    </div><br> 
+                    
+                    <div class="div-form-product">
+                        <label class="label-form-product">Pavimento instantáneo - INSTAPAV</label>
+                        <input type="checkbox" class="checkbox-form-product" name="Productos6" id="Check6" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label6">Cantidad</label>
+                        <input type="text" name="ProCantidad6" id="ProCantidad6" value="" hidden="true" class="checkbox-form-bot-product" /><br><br>
+                    </div><br>
+                     
+                    <div class="div-form-product">
+                        <label class="label-form-product">Emulsiones Asfálticas</label>
+                        <input type="checkbox" class="checkbox-form-product" name="Productos7" id="Check7" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-product" hidden="true" id="Label7">Cantidad</label>
+                        <input type="text" name="ProCantidad7" id="ProCantidad7" value="" hidden="true" class="checkbox-form-bot-product" /><br><br>
+                    </div><br>  
+                    
+                    <h2>Laboratorio</h2>
+                    <div class="div-form-lab" id="div-1">
+                        <label class="label-form-lab">Determinación de la Limpieza Superficial de las Partículas de Agregado Grueso</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio1" id="Check8" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label8">Cantidad</label>
+                        <input type="text" name="ProLab1" id="ProLab1" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-2">
+                        <label class="label-form-lab">Determinación de Terrones de Arcilla y Particulas Deleznables en Agregados</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio2" id="Check9" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label9">Cantidad</label>
+                        <input type="text" name="ProLab2" id="ProLab2" value="" hidden="true" class="checkbox-form-bot-lab"  /><br><br>
+                    </div><br>
+
+					<div class="div-form-lab" id="div-3">
+                        <label class="label-form-lab">Caracterización Total de Agregados</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio3" id="Check10" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label10">Cantidad</label>
+                        <input type="text" name="ProLab3" id="ProLab3" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-4">
+                        <label class="label-form-lab">Caracterización Marshall Mezcla caliente en Contenido Óptimo de Asfalto</label>
+                        <input type="checkbox"  class="checkbox-form-lab" name="Laboratorio4" id="Check11" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label11">Cantidad</label>
+                        <input type="text" name="ProLab4" id="ProLab4" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-5">
+                        <label class="label-form-lab">Caracterización Total de Asfaltos Modificados</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio5" id="Check15" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label15">Cantidad</label>
+                        <input type="text" name="ProLab5" id="ProLab5" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-6">
+                        <label class="label-form-lab">Caracterización Total de Emulsiones Convencionales</label>
+                        <input type="checkbox"  class="checkbox-form-lab" name="Laboratorio6" id="Check16" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label16">Cantidad</label>
+                        <input type="text" name="ProLab6" id="ProLab6" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-7">
+                        <label class="label-form-lab">Caracterización Total de Emulsiones Modificadas</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio7" id="Check17" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label17">Cantidad</label>
+                        <input type="text" name="ProLab7" id="ProLab7" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-8">
+                        <label class="label-form-lab">Curva Reológica del Asfalto. Determinación de Viscosidad Brookfield</label>
+                        <input type="checkbox"  class="checkbox-form-lab" name="Laboratorio8" id="Check18" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label18">Cantidad</label>
+                        <input type="text" name="ProLab8" id="ProLab8" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                     <div class="div-form-lab" id="div-9">
+                        <label class="label-form-lab">Determinación de la Viscosidad Brookfield</label>
+                        <input type="checkbox" class="checkbox-form-lab" name="Laboratorio9" id="Check19" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label19">Cantidad</label>
+                        <input type="text" name="ProLab9" id="ProLab9" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-lab" id="div-10">
+                        <label class="label-form-lab">Determinación contenido de parafinas ligantes asfálticos</label>
+                        <input type="checkbox"  class="checkbox-form-lab" name="Laboratorio10" id="Check20" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-lab" hidden="true" id="Label20">Cantidad</label>
+                        <input type="text" name="ProLab10" id="ProLab10" value="" hidden="true" class="checkbox-form-bot-lab" /><br><br>
+                    </div><br>
+                    
+                    <h2>Servicios</h2>
+                    <div class="div-form-servicios" id="div-serv1">
+                        <label class="label-form-servicios">Mantenimiento Vial - Slurry Seal</label>
+                        <input type="checkbox" class="checkbox-form-servicios" name="Servicio1" id="Check12" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-servicios" hidden="true" id="Label12">Comentarios</label>
+                        <input type="text" name="Servicio1" id="Servicio1" value="" hidden="true" class="checkbox-form-bot-servicios" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-servicios" id="div-serv2">
+                        <label class="label-form-servicios">Exportacion/Importacion</label>
+                        <input type="checkbox" class="checkbox-form-servicios" name="Servicio2" id="Check13" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-servicios" hidden="true" id="Label13">Comentarios</label>
+                        <input type="text" name="Servicio2" id="Servicio2" value="" hidden="true" class="checkbox-form-bot-servicios" /><br><br>
+                    </div><br>
+                    
+                    <div class="div-form-servicios" id="div-serv3">
+                        <label class="label-form-servicios">Logística de Transporte</label>
+                        <input type="checkbox" class="checkbox-form-servicios" name="Servicio3" id="Check14" onClick="hideText()" value="true"><br><br>
+                        <label class="label-form-bot-servicios" hidden="true" id="Label14">Comentarios</label>
+                        <input type="text" name="Servicio3" id="Servicio3" value="" hidden="true" class="checkbox-form-bot-servicios" /><br><br>
+                    </div><br>
+                    
+                     <label>Nombre:</label><br>
+            		 <input type="text" name="ContactName" id="ContactName" value="" style="margin-left:20px" /><br><br>
+            	 	 <label>Teléfono:</label><br>
+            		 <input type="text" name="ContactPhone" id="ContactPhone" value="" style="margin-left:20px"/><br><br>
+                     <input type="reset" name="clear" id="clear" value="Limpiar" onClick="hideTextClear()" style="margin-left:3%"/>
+                     <input type="button" value="Enviar" onClick="sendMail()">
+                     
+              	</div>
+			</form>
+			
+       </div>		
+      
+      </div>
+    
+<script>
+function hideText()
+	 				{
+						
+						document.getElementById('Label1').hidden = !document.getElementById('Check1').checked; 
+						document.getElementById('ProCantidad1').hidden = !document.getElementById('Check1').checked;
+						
+						document.getElementById('Label2').hidden = !document.getElementById('Check2').checked; 
+						document.getElementById('ProCantidad2').hidden = !document.getElementById('Check2').checked;
+						
+						document.getElementById('Label3').hidden = !document.getElementById('Check3').checked; 
+						document.getElementById('ProCantidad3').hidden = !document.getElementById('Check3').checked;
+						
+						document.getElementById('Label4').hidden = !document.getElementById('Check4').checked; 
+						document.getElementById('ProCantidad4').hidden = !document.getElementById('Check4').checked;
+						
+						document.getElementById('Label5').hidden = !document.getElementById('Check5').checked; 
+						document.getElementById('ProCantidad5').hidden = !document.getElementById('Check5').checked;
+						
+						document.getElementById('Label6').hidden = !document.getElementById('Check6').checked; 
+						document.getElementById('ProCantidad6').hidden = !document.getElementById('Check6').checked;
+						
+						document.getElementById('Label7').hidden = !document.getElementById('Check7').checked; 
+						document.getElementById('ProCantidad7').hidden = !document.getElementById('Check7').checked;
+						
+						document.getElementById('Label8').hidden = !document.getElementById('Check8').checked; 
+						document.getElementById('ProLab1').hidden = !document.getElementById('Check8').checked;
+						
+						document.getElementById('Label9').hidden = !document.getElementById('Check9').checked; 
+						document.getElementById('ProLab2').hidden = !document.getElementById('Check9').checked;
+						
+						document.getElementById('Label10').hidden = !document.getElementById('Check10').checked; 
+						document.getElementById('ProLab3').hidden = !document.getElementById('Check10').checked;
+						
+						document.getElementById('Label11').hidden = !document.getElementById('Check11').checked; 
+						document.getElementById('ProLab4').hidden = !document.getElementById('Check11').checked;
+						
+						document.getElementById('Label12').hidden = !document.getElementById('Check12').checked; 
+						document.getElementById('Servicio1').hidden = !document.getElementById('Check12').checked;
+						
+						document.getElementById('Label13').hidden = !document.getElementById('Check13').checked; 
+						document.getElementById('Servicio2').hidden = !document.getElementById('Check13').checked;
+						
+						document.getElementById('Label14').hidden = !document.getElementById('Check14').checked; 
+						document.getElementById('Servicio3').hidden = !document.getElementById('Check14').checked;
+						
+						
+							
+					}
+					
+					function hideTextClear()
+					{
+						document.getElementById('Label1').hidden = true;
+						document.getElementById('ProCantidad1').hidden = true;
+						document.getElementById('Label2').hidden = true;
+						document.getElementById('ProCantidad2').hidden = true;
+						document.getElementById('Label3').hidden = true;
+						document.getElementById('ProCantidad3').hidden = true;
+						document.getElementById('Label4').hidden = true;
+						document.getElementById('ProCantidad4').hidden = true;
+						document.getElementById('Label5').hidden = true;
+						document.getElementById('ProCantidad5').hidden = true;
+						document.getElementById('Label6').hidden = true;
+						document.getElementById('ProCantidad6').hidden = true;
+						document.getElementById('Label7').hidden = true;
+						document.getElementById('ProCantidad7').hidden = true;
+						document.getElementById('Label8').hidden = true;
+						document.getElementById('ProLab1').hidden = true;
+						document.getElementById('Label9').hidden = true;
+						document.getElementById('ProLab2').hidden = true;
+						document.getElementById('Label10').hidden = true;
+						document.getElementById('ProLab3').hidden = true;
+						document.getElementById('Label11').hidden = true;
+						document.getElementById('ProLab4').hidden = true;
+						document.getElementById('Label12').hidden = true;
+						document.getElementById('Servicio1').hidden = true;
+						document.getElementById('Label13').hidden = true;
+						document.getElementById('Servicio2').hidden = true;
+						document.getElementById('Label14').hidden = true;
+						document.getElementById('Servicio3').hidden = true;
+						
+					}
+                    
+					function sendMail()
+					{
+					var Pro1= document.getElementById("ProCantidad1").value
+					var Pro2= document.getElementById("ProCantidad2").value
+					var Pro3= document.getElementById("ProCantidad3").value
+					var Pro4= document.getElementById("ProCantidad4").value
+					var Pro5= document.getElementById("ProCantidad5").value
+					var Pro6= document.getElementById("ProCantidad6").value
+					var Pro7= document.getElementById("ProCantidad7").value
+					var Cant1= document.getElementById("ProLab1").value
+					var Cant2= document.getElementById("ProLab2").value
+					var Cant3= document.getElementById("ProLab3").value
+					var Cant4= document.getElementById("ProLab4").value
+					
+					var Serv1= document.getElementById("Servicio1").value
+					var Serv2= document.getElementById("Servicio2").value
+					var Serv3= document.getElementById("Servicio3").value
+					
+					var CheckPro1= document.getElementById("Check1").checked
+					var CheckPro2= document.getElementById("Check2").checked
+					var CheckPro3= document.getElementById("Check3").checked
+					var CheckPro4= document.getElementById("Check4").checked
+					var CheckPro5= document.getElementById("Check5").checked
+					var CheckPro6= document.getElementById("Check6").checked
+					var CheckPro7= document.getElementById("Check7").checked
+					var CheckCant1= document.getElementById("Check8").checked
+					var CheckCant2= document.getElementById("Check9").checked
+					var CheckCant3= document.getElementById("Check10").checked
+					var CheckCant4= document.getElementById("Check11").checked
+					var CheckServ1= document.getElementById("Check12").checked
+					var CheckServ2= document.getElementById("Check13").checked
+					var CheckServ3= document.getElementById("Check14").checked
+    				var ContactPhone = document.getElementById("ContactPhone").value
+					var ContactName = document.getElementById("ContactName").value
+					var yourMess = "";
+					
+					if ((CheckPro1==true)&&(Pro1!=""))
+					{
+						yourMess=yourMess+" Asfalto Caucho : "+Pro1;
+					}
+					if ((CheckPro1==true)&&(Pro1==""))
+					{
+						yourMess=yourMess+" Asfalto Caucho : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro2==true)&&(Pro2!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Asfalto modificado con polímeros : "+Pro2;
+					}
+					if ((CheckPro2==true)&&(Pro2==""))
+					{
+						yourMess=yourMess+"%0D%0A Asfalto modificado con polímeros : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro3==true)&&(Pro3!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Asfalto con mejoradores de adherencia : "+Pro3;
+					}
+					if ((CheckPro3==true)&&(Pro3==""))
+					{
+						yourMess=yourMess+"%0D%0A Asfalto con mejoradores de adherencia : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro4==true)&&(Pro4!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Asfalto Normalizado : "+Pro4;
+					}
+					if ((CheckPro4==true)&&(Pro4==""))
+					{
+						yourMess=yourMess+"%0D%0A Asfalto Normalizado : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro5==true)&&(Pro5!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Sellado de grietas - POLYBIT : "+Pro5;
+					}
+					if ((CheckPro5==true)&&(Pro5==""))
+					{
+						yourMess=yourMess+"%0D%0A Sellado de grietas - POLYBIT : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro6==true)&&(Pro6!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Pavimento instantáneo - INSTAPAV : "+Pro6;
+					}
+					if ((CheckPro6==true)&&(Pro6==""))
+					{
+						yourMess=yourMess+"%0D%0A Pavimento instantáneo - INSTAPAV : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckPro7==true)&&(Pro7!="")) 
+					{
+						yourMess=yourMess+"%0D%0A Emulsiones Asfálticas : "+Pro7;
+					}
+					if ((CheckPro7==true)&&(Pro7==""))
+					{
+						yourMess=yourMess+"%0D%0A Emulsiones Asfálticas : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckCant1==true)&&(Cant1!=""))
+					{
+						yourMess=yourMess+" S.A.R.A : "+Cant1;
+					}
+					if ((CheckCant1==true)&&(Cant1==""))
+					{
+						yourMess=yourMess+" S.A.R.A : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckCant2==true)&&(Cant2!=""))
+					{
+						yourMess=yourMess+" Deformación plástica : "+Cant2;
+					}
+					if ((CheckCant2==true)&&(Cant2==""))
+					{
+						yourMess=yourMess+" Deformación plástica : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckCant3==true)&&(Cant3!=""))
+					{
+						yourMess=yourMess+" Diseño de módulos dinámicos : "+Cant3;
+					}
+					if ((CheckCant3==true)&&(Cant3==""))
+					{
+						yourMess=yourMess+" Diseño de módulos dinámicos : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckCant4==true)&&(Cant4!=""))
+					{
+						yourMess=yourMess+" Determinación de grádo PG : "+Cant4;
+					}
+					if ((CheckCant4==true)&&(Cant4==""))
+					{
+						yourMess=yourMess+" Determinación de grádo PG : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckServ1==true)&&(Serv1!=""))
+					{
+						yourMess=yourMess+" Mantenimiento Vial : "+Serv1;
+					}
+					if ((CheckServ1==true)&&(Serv1==""))
+					{
+						yourMess=yourMess+" Mantenimiento Vial : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckServ2==true)&&(Serv2!=""))
+					{
+						yourMess=yourMess+" Exportacion/Importacion : "+Serv2;
+					}
+					if ((CheckServ2==true)&&(Serv2==""))
+					{
+						yourMess=yourMess+" Exportacion/Importacion : "+"Cantidad No Ingresada";
+					}
+					
+					if ((CheckServ3==true)&&(Serv3!=""))
+					{
+						yourMess=yourMess+" Logística de Transporte : "+Serv3;
+					}
+					if ((CheckServ3==true)&&(Serv3==""))
+					{
+						yourMess=yourMess+" Logística de Transporte : "+"Cantidad No Ingresada";
+					}
+					
+					
+					var mail="servicioalcliente@mpi.net.co?subject="+"Cotización"+"&body="+yourMess+"%0D%0A  %0D%0A Nombre de Contacto : "+ContactName+"%0D%0A  %0D%0A Email de Contacto : "+ContactPhone;
+
+					
+
+    				location.href = "mailto:"+mail;
+					}
+</script>
+</div>
+</div>
+</div>  
