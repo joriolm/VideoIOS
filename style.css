@@ -2175,7 +2175,7 @@ h2#Note{
 {
 	width:20%;
 	position:absolute;
-	left:65.2%;
+	left:68.2%;
 	top:40px;
 }
 
@@ -2213,8 +2213,8 @@ h2#Note{
 .label-form-bot-lab
 {
 	position: absolute; 
-	left:50%;
-	top:100px;
+	left:40%;
+	top:80px;
 	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;
 }
 
@@ -2222,8 +2222,8 @@ h2#Note{
 {
 	width:20%;
 	position:absolute; 
-	left:75.2%;
-	top:95px;
+	left:68.2%;
+	top:85px;
 }
 
 .div-form-servicios
