@@ -74,93 +74,93 @@ function hideText()
 						
 						if(document.getElementById('Check9').checked==true)
 							{
-							document.getElementById('div-2').style.height = "100px";
+							document.getElementById('div-2').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-2').style.height = "72px";
+							document.getElementById('div-2').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check10').checked==true)
 							{
-							document.getElementById('div-3').style.height = "100px";
+							document.getElementById('div-3').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-3').style.height = "72px";
+							document.getElementById('div-3').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check11').checked==true)
 							{
-							document.getElementById('div-4').style.height = "100px";
+							document.getElementById('div-4').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-4').style.height = "72px";
+							document.getElementById('div-4').style.height = "90px";
 							}
 							
 						
 						if(document.getElementById('Check15').checked==true)
 							{
-							document.getElementById('div-5').style.height = "100px";
+							document.getElementById('div-5').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-5').style.height = "72px";
+							document.getElementById('div-5').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check16').checked==true)
 							{
-							document.getElementById('div-6').style.height = "100px";
+							document.getElementById('div-6').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-6').style.height = "72px";
+							document.getElementById('div-6').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check17').checked==true)
 							{
-							document.getElementById('div-7').style.height = "100px";
+							document.getElementById('div-7').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-7').style.height = "72px";
+							document.getElementById('div-7').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check18').checked==true)
 							{
-							document.getElementById('div-8').style.height = "100px";
+							document.getElementById('div-8').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-8').style.height = "72px";
+							document.getElementById('div-8').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check19').checked==true)
 							{
-							document.getElementById('div-9').style.height = "100px";
+							document.getElementById('div-9').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-9').style.height = "72px";
+							document.getElementById('div-9').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check20').checked==true)
 							{
-							document.getElementById('div-10').style.height = "100px";
+							document.getElementById('div-10').style.height = "120px";
 							
 							}
 						else
 							{
-							document.getElementById('div-10').style.height = "72px";
+							document.getElementById('div-10').style.height = "90px";
 							}
 							
 						if(document.getElementById('Check12').checked==true)
