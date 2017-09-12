@@ -484,7 +484,7 @@ function hideText()
 					}
 					
 					
-					var mail="servicioalcliente@mpi.net.co?subject="+"Cotización"+"&body="+yourMess+"%0D%0A  %0D%0A Nombre de Contacto : "+ContactName+"%0D%0A  %0D%0A Telefono de Contacto : "+ContactPhone;
+					var mail="ventas@mpi.net.co?subject="+"Cotización"+"&body="+yourMess+"%0D%0A  %0D%0A Nombre de Contacto : "+ContactName+"%0D%0A  %0D%0A Telefono de Contacto : "+ContactPhone;
 
 					
 
